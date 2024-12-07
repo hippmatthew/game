@@ -27,5 +27,6 @@ Components for Map Building:
 - B: basic attack
 - A: aoe attack
 - S: player spawn
+- Y: initial enemies (not recommended as the greedy pathfinding algorithm is difficult enough to beat)
 
 The map must be 32x32 and be made up of the above components
