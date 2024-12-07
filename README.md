@@ -17,3 +17,15 @@ Attacks 1 space in each direction around the user. FCD: 6
 Goal:
 
 Survive as long as possible and get the highest score. You can only take 4 hits
+
+Map Creator:
+
+Create maps by adding a .map file to the data folder, changing which map is loaded in src/main.c file, and then recompiling.
+
+Components for Map Building:
+- *: wall
+- B: basic attack
+- A: aoe attack
+- S: player spawn
+
+The map must be 32x32 and be made up of the above components
